@@ -1,0 +1,21 @@
+{
+  "name": "clip-of-the-week-bot",
+  "version": "1.0.0",
+  "description": "Discord Bot für Clip of the Week Voting mit Medal.tv Integration",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": ["discord", "bot", "clip", "voting", "medal.tv"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "node-cron": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+} 
